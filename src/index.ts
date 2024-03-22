@@ -1,4 +1,6 @@
+import "./lib/env";
+
 (function () {
-  const a: string = "a";
-  console.log(a);
+  const threads: string | undefined = process.env.THREADS;
+  console.log(threads);
 })();
