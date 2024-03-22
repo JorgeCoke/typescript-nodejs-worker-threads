@@ -1,5 +1,5 @@
 {
-  "name": "typescript-nodejs-thread-workers",
+  "name": "typescript-nodejs-worker-threads",
   "version": "1.0.0",
   "scripts": {
     "dev": "tsx src/index.ts"

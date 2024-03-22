@@ -1,13 +1,15 @@
-export type WorkerData = {
+type Worker = {
   index: number;
-  name: string;
-  path: string;
 };
 
+export type WorkerData = {
+  name: string;
+  path: string;
+} & Worker;
+
 export type WorkerResult = {
-  index: number;
   result: string;
-};
+} & Worker;
 
 export enum WorkerOperation {
   Start = "Start",
